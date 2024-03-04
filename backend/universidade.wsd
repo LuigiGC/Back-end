@@ -1,0 +1,21 @@
+@startuml
+
+left to right direction
+actor Professor
+actor Aluno
+actor Equipe
+
+rectangle Universidade{
+Professor -> (exame de grade)
+Professor -> (Manage Course)
+Professor -> (Acessar informações do curso)
+
+Aluno ->(Acessar)
+
+Aluno ->(Acessar)
+
+Equipe ---> (Acessar informações do curso)
+
+Equipe ---> (Gerencia curso)
+}
+@enduml

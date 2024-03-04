@@ -1,0 +1,11 @@
+@startuml
+
+:User:
+:Funcionario: as Func
+:Comprador: as Comp
+
+
+(Vender livros) as (UC1)
+
+Func --> (UC1)
+Comp <--> (UC1)

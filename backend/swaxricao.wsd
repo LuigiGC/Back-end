@@ -1,0 +1,8 @@
+@startuml
+usecase UC1 as "You can use several lines also use separators.
+--
+several separators are possible
+--
+And you can add titles:
+..conclusion..
+"
